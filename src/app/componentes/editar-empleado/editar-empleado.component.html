@@ -5,7 +5,7 @@
     <div class="card-body">
        <form ngNativeValidate [formGroup]="formularioDeEmpleados" (ngSubmit)="enviarDatos()" >
 
-         <div class="mb-3">
+         <!-- <div class="mb-3">
             <label for="" class="form-label">Nombre</label>
             <input
             required
@@ -16,9 +16,9 @@
                 aria-describedby="helpId"
                 placeholder="Escribe tu nombre"
             />
-            
+
          </div>
-        
+
 
          <div class="mb-3">
             <label for="" class="form-label">Descripcion</label>
@@ -31,7 +31,7 @@
                 aria-describedby="helpId"
                 placeholder="Escribe la Descripcion"
             />
-            
+
          </div>
 
          <div class="mb-3">
@@ -45,7 +45,7 @@
                 aria-describedby="helpId"
                 placeholder="Escribe el Destino"
             />
-            
+
          </div>
 
 
@@ -60,7 +60,7 @@
                 aria-describedby="helpId"
                 placeholder="Escribe la Duracion"
             />
-            
+
          </div>
 
          <div class="mb-3">
@@ -74,11 +74,11 @@
                 aria-describedby="helpId"
                 placeholder="Escribe el Precio"
             />
-        
+
          </div>
 
-         <!-- //// agregamos esta linea 08 -->
-         
+          //// agregamos esta linea 08
+
          <div class="mb-3">
             <label for="" class="form-label">Cupo</label>
             <input
@@ -90,9 +90,9 @@
                 aria-describedby="helpId"
                 placeholder="Escribe el Cupo"
             />
-            
+
          </div>
-         
+
          <div class="mb-3">
             <label for="" class="form-label">Contacto</label>
             <input
@@ -104,10 +104,209 @@
                 aria-describedby="helpId"
                 placeholder="Escribe el Contacto"
             />
-            
-         </div>
-         
-     
+
+         </div> -->
+         /////////////////////////////////////////////
+         <div class="mb-3">
+          <label for="" class="form-label">Cod_camara</label>
+          <input
+              required
+              type="text"
+              class="form-control"
+              name="" formControlName="codigo_camara"
+              id=""
+              aria-describedby="helpId"
+              placeholder="Escribe camara"
+          />
+
+       </div>
+       <div class="mb-3">
+        <label for="" class="form-label">modelo</label>
+        <input
+            required
+            type="text"
+            class="form-control"
+            name="" formControlName="modelo"
+            id=""
+            aria-describedby="helpId"
+            placeholder="Escribe el Contacto"
+        />
+
+     </div>
+     <div class="mb-3">
+      <label for="" class="form-label">marca</label>
+      <input
+          required
+          type="text"
+          class="form-control"
+          name="" formControlName="marca"
+          id=""
+          aria-describedby="helpId"
+          placeholder="Escribe el Contacto"
+      />
+
+   </div>
+   <div class="mb-3">
+    <label for="" class="form-label">precio</label>
+    <input
+        required
+        type="text"
+        class="form-control"
+        name="" formControlName="preccio"
+        id=""
+        aria-describedby="helpId"
+        placeholder="Escribe el Contacto"
+    />
+
+ </div>
+ <div class="mb-3">
+  <label for="" class="form-label">resolucion</label>
+  <input
+      required
+      type="text"
+      class="form-control"
+      name="" formControlName="resolucion"
+      id=""
+      aria-describedby="helpId"
+      placeholder="Escribe el Contacto"
+  />
+
+</div>
+<div class="mb-3">
+  <label for="" class="form-label">tipo</label>
+  <input
+      required
+      type="text"
+      class="form-control"
+      name="" formControlName="tipo"
+      id=""
+      aria-describedby="helpId"
+      placeholder="Escribe el Contacto"
+  />
+
+</div>
+<div class="mb-3">
+  <label for="" class="form-label">proveedor</label>
+  <input
+      required
+      type="text"
+      class="form-control"
+      name="" formControlName="proveedor"
+      id=""
+      aria-describedby="helpId"
+      placeholder="Escribe el Contacto"
+  />
+
+</div>
+<div class="mb-3">
+  <label for="" class="form-label">garantia</label>
+  <input
+      required
+      type="text"
+      class="form-control"
+      name="" formControlName="garantia"
+      id=""
+      aria-describedby="helpId"
+      placeholder="Escribe el Contacto"
+  />
+
+</div>
+<div class="mb-3">
+  <label for="" class="form-label">peso</label>
+  <input
+      required
+      type="text"
+      class="form-control"
+      name="" formControlName="peso"
+      id=""
+      aria-describedby="helpId"
+      placeholder="Escribe el Contacto"
+  />
+
+</div>
+<div class="mb-3">
+  <label for="" class="form-label">dimensiones</label>
+  <input
+      required
+      type="text"
+      class="form-control"
+      name="" formControlName="dimensiones"
+      id=""
+      aria-describedby="helpId"
+      placeholder="Escribe el Contacto"
+  />
+
+</div>
+<div class="mb-3">
+  <label for="" class="form-label">tipo_sensor</label>
+  <input
+      required
+      type="text"
+      class="form-control"
+      name="" formControlName="tipo_sensor"
+      id=""
+      aria-describedby="helpId"
+      placeholder="Escribe el Contacto"
+  />
+
+</div>
+<div class="mb-3">
+  <label for="" class="form-label">lente_incluido</label>
+  <input
+      required
+      type="text"
+      class="form-control"
+      name="" formControlName="lente_incluido"
+      id=""
+      aria-describedby="helpId"
+      placeholder="Escribe el Contacto"
+  />
+
+</div>
+<div class="mb-3">
+  <label for="" class="form-label">tipo_almacenamiento</label>
+  <input
+      required
+      type="text"
+      class="form-control"
+      name="" formControlName="tipo_almacenamiento"
+      id=""
+      aria-describedby="helpId"
+      placeholder="Escribe el Contacto"
+  />
+
+</div>
+<div class="mb-3">
+  <label for="" class="form-label">bateria</label>
+  <input
+      required
+      type="text"
+      class="form-control"
+      name="" formControlName="bateria"
+      id=""
+      aria-describedby="helpId"
+      placeholder="Escribe el Contacto"
+  />
+
+</div>
+<div class="mb-3">
+  <label for="" class="form-label">observaciones</label>
+  <input
+      required
+      type="text"
+      class="form-control"
+      name="" formControlName="observaciones"
+      id=""
+      aria-describedby="helpId"
+      placeholder="Escribe el Contacto"
+  />
+
+</div>
+
+
+
+
+
 
          <div class="btn-group" role="group" aria-label="Button group name">
             <button
@@ -123,10 +322,10 @@
             >
                 Cancelar
             </button>
-           
+
          </div>
-         
+
        </form>
     </div>
-  
+
 </div>

@@ -29,8 +29,23 @@ constructor(
     contacto:[''],
     descripcion:[''],
     destino:[''],
-    duracion:['']
-   
+    duracion:[''],
+    codigo_camara:[''],
+    modelo:[''],
+    marca :[''],
+    preccio:[''],
+    resolucion:[''],
+    tipo:[''],
+    proveedor:[''],
+    garantia:[''],
+    peso:[''],
+    dimensiones:[''],
+    tipo_sensor:[''],
+    lente_incluido:[''],
+    tipo_almacenamiento:[''],
+    bateria:[''],
+    observaciones:['']
+
   });
 }
 enviarDatos():any{
@@ -39,6 +54,6 @@ enviarDatos():any{
   this.crudService.AgregarEmpleado(this.formularioDeEmpleados.value).subscribe(respuesta=>{
      this.ruteador.navigateByUrl('/listar-empleado');
   });
- 
+
 }
 }
